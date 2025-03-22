@@ -1,0 +1,7 @@
+- name: "confuguring {{COMPONENT}} server"
+  hosts: all
+  become: yes
+  vars_files:
+  - "variables-{{ENVIRONMENT}}.yml"
+  roles:
+  - "{{COMPONENT}}"

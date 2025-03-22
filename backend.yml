@@ -1,0 +1,6 @@
+- name: confuguring backend
+  hosts: backend
+  become: yes
+  tasks:
+  roles:
+  - backend

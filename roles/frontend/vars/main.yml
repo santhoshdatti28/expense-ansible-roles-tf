@@ -1,0 +1,3 @@
+host_name: backend.santhoshdatti.online
+APP_LOCATION: /usr/share/nginx/html/
+COMPONENT: frontend
