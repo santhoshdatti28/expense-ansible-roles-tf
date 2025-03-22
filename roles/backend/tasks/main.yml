@@ -30,10 +30,10 @@
 #     path: /app
 #     state: directory
 
-- name: include from common
-  include_role:
-    name: common
-    tasks_from: main
+# - name: include from common
+#   include_role:
+#     name: common
+#     tasks_from: main
 
 
 # - name: download the code

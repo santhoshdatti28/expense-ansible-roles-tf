@@ -1,4 +1,5 @@
+MYSQL_HOST: "mysql-{{ ENVIRONMENT }}.santhoshdatti.online"
 MYSQL_USER: root
-MYSQL_PASSWORD: ExpenseApp@1
-APP_LOCATION: /app
+MYSQL_PASSWORD: ExpenseApp1
+APP_LOCAION: /app
 COMPONENT: backend
